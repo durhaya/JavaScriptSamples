@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Javascript ExtensionMethods</title>
+    <script src="extensionMethods/string.js"></script>
+</head>
+<body>
+  <h1>ExtensionMethods in Javascript</h1>
+  <pre>
+    <script type="text/javascript">
+      var textToFormat = "Hello {0}, how are {1}";
+      document.write("Extension Method to check IsFilled(): " + textToFormat.IsFilled());
+      document.write("<br/>");
+      document.write("Extension Method to check IsEmpty(): " + textToFormat.IsEmpty());
+      document.write("<br/>");
+      document.write("Extension Method to Format: " + textToFormat.Format('everyone','you all doing?'));
+      document.write("<br/>");
+      document.write("Extension Method to Format: " + "This is {0} {1} attempt. I hope {2} will explore".Format('my','first', 'you'));
+  </script>
+  </pre>
+</body>
+</html>
